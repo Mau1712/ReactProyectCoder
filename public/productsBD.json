@@ -1,0 +1,222 @@
+[
+    {
+        "imagen": "https://picsum.photos/200/200?random=1",
+        "Titulo": "Cuenco Madera Pequeño",
+        "Precio": 2350,
+        "Detalle": "Medidas: diámetro de 8cm - altura 4.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "001"
+        
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=2",
+        "Titulo": "Cuenco Madera Mediano",
+        "Precio": 2950,
+        "Detalle": "Medidas: diámetro de 9.5cm - altura 4.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "002"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=3",
+        "Titulo": "Cuenco Madera Grande",
+        "Precio": 3299,
+        "Detalle": "Medidas: diámetro de 11.5cm - altura 5.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "003"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=4",
+        "Titulo": "Geométrico",
+        "Precio": 1900,
+        "Detalle": "Medidas: diámetro de 9cm - altura 4cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "004"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=5",
+        "Titulo": "Octagonal",
+        "Precio": 1799,
+        "Detalle": "Medidas: diámetro de 6cm - altura 4cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "005"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=6",
+        "Titulo": "Jericó",
+        "Precio": 2200,
+        "Detalle": "Medidas: diámetro de 7.5cm - altura 8.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "006"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=7",
+        "Titulo": "Esfera M",
+        "Precio": 2990,
+        "Detalle": "Medidas: diámetro de 6cm - altura 6.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "007"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=8",
+        "Titulo": "Esfera L",
+        "Precio": 3350,
+        "Detalle": "Medidas: diámetro de 7.5cm - altura 8.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "008"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=9",
+        "Titulo": "Cuenco cilindrico",
+        "Precio": 2850,
+        "Detalle": "Medidas: diámetro de 6.5cm - altura 8.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "09"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=10",
+        "Titulo": "Cuenco con tapa",
+        "Precio": 3180,
+        "Detalle": "Medidas: diámetro de 9cm - altura 4.5cm",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de soja",
+        "Tipo": "VS",
+        "id": "010"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=11",
+        "Titulo": "Hornillo Roma",
+        "Precio": 3000,
+        "Detalle": "Medidas: diámetro de 9cm - altura 11.5cm - Incluye vela de noche.",
+        "Aromas": "Bombones de: Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Hornillos",
+        "Tipo": "HOR",
+        "id": "011"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=12",
+        "Titulo": "Hornillo Miel",
+        "Precio": 3200,
+        "Detalle": "Medidas: diámetro de 9cm - altura 10.5cm - Incluye vela de noche.",
+        "Aromas": "Bombones de: Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Hornillos",
+        "Tipo": "HOR",
+        "id": "012"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=13",
+        "Titulo": "Hornillo Buda",
+        "Precio": 5600,
+        "Detalle": "Tamaño grande - Incluye vela de noche y bombones de aroma en stock.",
+        "Aromas": "Bombones de: Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Hornillos",
+        "Tipo": "HOR",
+        "id": "013"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=14",
+        "Titulo": "Bombones",
+        "Precio": 1200,
+        "Detalle": "5 unidades",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Hornillos",
+        "Tipo": "HOR",
+        "id": "014"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=15",
+        "Titulo": "Difusor con dije",
+        "Precio": 2500,
+        "Detalle": "Incluye varillas - SE PIDEN CON UN MES DEANTICIPACION",
+        "categoria": "Difusores y accesorios",
+        "Tipo": "DA",
+        "id": "015"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=16",
+        "Titulo": "Apaga Velas",
+        "Precio": 1000,
+        "Detalle": "Cualquier color y diseño tiene el mismo costo",
+        "categoria": "Difusores y accesorios",
+        "Tipo": "DA",
+        "id": "016"
+    },
+
+    
+    {
+        "imagen": "https://picsum.photos/200/200?random=17",
+        "Titulo": "Bubbles",
+        "Precio": 3200,
+        "Detalle": "Bubbles aromaticas y decorativas",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de molde",
+        "Tipo": "VM",
+        "id": "017"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=18",
+        "Titulo": "Rose",
+        "Precio": 2900,
+        "Detalle": "Bubbles aromaticas y decorativas",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de molde",
+        "Tipo": "VM",
+        "id": "018"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=19",
+        "Titulo": "Porta Sahumerio",
+        "Precio": 2100,
+        "Detalle": "Cualquier color y diseño tiene el mismo costo",
+        "categoria": "Difusores y accesorios",
+        "Tipo": "DA",
+        "id": "019"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=19",
+        "Titulo": "Mini Cactus",
+        "Precio": 1500,
+        "Detalle": "Bubbles aromaticas y decorativas",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de molde",
+        "Tipo": "VM",
+        "id": "020"
+    }
+    
+]
+

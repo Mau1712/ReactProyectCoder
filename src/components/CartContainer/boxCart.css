@@ -1,0 +1,10 @@
+.cartImg {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.btnOpenBoxCart {
+    padding: 0 !important;
+}
