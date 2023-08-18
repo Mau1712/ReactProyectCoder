@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import { Link } from 'react-router-dom'; // Importa Link para enlazar a la página de detalles
+import { Link } from 'react-router-dom'; 
 import './Item.css';
 
 const Item = ({ product }) => {
