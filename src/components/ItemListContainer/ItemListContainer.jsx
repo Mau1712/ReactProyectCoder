@@ -29,8 +29,7 @@ const ItemListContainer = () => {
   }, [categoria]); 
 
   const filteredProducts = categoria
-    ? productList.filter(product => product.categoria === categoria)
-    : productList;
+    ? productList.filter(product => product.categoria === categoria): productList;
 
   return (
     <Container className='productsSection'>
