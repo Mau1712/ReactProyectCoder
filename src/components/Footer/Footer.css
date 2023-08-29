@@ -1,0 +1,26 @@
+.footerLinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 0%;
+   
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: #fd4e09a6;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(70, 69, 69, 0.548);
+    font-size: 13px;
+}
+
+.footerFot {
+    background-color: rgba(199, 199, 198, 0.267);
+    margin-top: 50px;
+}

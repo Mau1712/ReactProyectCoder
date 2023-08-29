@@ -8,3 +8,61 @@
 .btnOpenBoxCart {
     padding: 0 !important;
 }
+
+.cardProductImg {
+    width: 80px !important;
+    margin-left: 12px !important;
+}
+
+.cardProduct {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    margin: 0% !important;
+    margin-top: 2px !important;
+}
+
+.tittleProduct {
+    font-size: 15px !important;
+}
+
+.allText {
+    font-size: 15px !important; 
+    margin: 0% !important;
+}
+
+.btnCant {
+    padding: 0% !important;
+    border: none !important;
+    background-color: white;
+    padding-inline: 10px !important;
+}
+
+.listaProductos {
+   list-style: none !important;
+   padding: 0% !important;
+}
+
+.btnFooterBoxCart {
+    display: flex;
+}
+
+.btnFooterBoxCart button {
+    width: 50%;    
+    border: none !important;
+    padding: 8px !important;
+    margin-inline: 2px !important;
+    background-color: #ff4800da  !important;
+    color: white !important;
+    border-radius: 8px !important;
+}
+
+.btnFooterBoxCart button:hover {
+    background-color: #f89f319a !important;
+    color: black !important;
+}
+
+.totalBuy {
+    margin-inline: 5px !important;
+    margin-bottom: 8px !important;
+}

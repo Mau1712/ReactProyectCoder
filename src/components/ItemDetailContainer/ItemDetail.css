@@ -2,3 +2,16 @@
     margin-top: 50px;
     
 }
+
+.addCartDetailItemButton {
+    background-color: #ff4800da  !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+
+}
+
+.addCartDetailItemButton:hover {
+    background-color: #f89f319a !important;
+    color: black !important;
+}

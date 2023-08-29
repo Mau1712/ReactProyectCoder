@@ -6,7 +6,7 @@
         "Detalle": "Medidas: diámetro de 8cm - altura 4.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "001"
         
     },
@@ -18,7 +18,7 @@
         "Detalle": "Medidas: diámetro de 9.5cm - altura 4.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "002"
     },
 
@@ -29,7 +29,7 @@
         "Detalle": "Medidas: diámetro de 11.5cm - altura 5.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "003"
     },
 
@@ -40,7 +40,7 @@
         "Detalle": "Medidas: diámetro de 9cm - altura 4cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "004"
     },
 
@@ -51,7 +51,7 @@
         "Detalle": "Medidas: diámetro de 6cm - altura 4cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "005"
     },
 
@@ -62,7 +62,7 @@
         "Detalle": "Medidas: diámetro de 7.5cm - altura 8.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "006"
     },
 
@@ -73,7 +73,7 @@
         "Detalle": "Medidas: diámetro de 6cm - altura 6.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "007"
     },
 
@@ -84,7 +84,7 @@
         "Detalle": "Medidas: diámetro de 7.5cm - altura 8.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "008"
     },
 
@@ -95,7 +95,7 @@
         "Detalle": "Medidas: diámetro de 6.5cm - altura 8.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "09"
     },
 
@@ -106,7 +106,7 @@
         "Detalle": "Medidas: diámetro de 9cm - altura 4.5cm",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de soja",
-        "Tipo": "VS",
+        "stock": "10",
         "id": "010"
     },
 
@@ -117,7 +117,7 @@
         "Detalle": "Medidas: diámetro de 9cm - altura 11.5cm - Incluye vela de noche.",
         "Aromas": "Bombones de: Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Hornillos",
-        "Tipo": "HOR",
+        "stock": "10",
         "id": "011"
     },
 
@@ -128,7 +128,7 @@
         "Detalle": "Medidas: diámetro de 9cm - altura 10.5cm - Incluye vela de noche.",
         "Aromas": "Bombones de: Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Hornillos",
-        "Tipo": "HOR",
+        "stock": "10",
         "id": "012"
     },
 
@@ -139,7 +139,7 @@
         "Detalle": "Tamaño grande - Incluye vela de noche y bombones de aroma en stock.",
         "Aromas": "Bombones de: Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Hornillos",
-        "Tipo": "HOR",
+        "stock": "10",
         "id": "013"
     },
 
@@ -150,7 +150,7 @@
         "Detalle": "5 unidades",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Hornillos",
-        "Tipo": "HOR",
+        "stock": "10",
         "id": "014"
     },
 
@@ -160,7 +160,7 @@
         "Precio": 2500,
         "Detalle": "Incluye varillas - SE PIDEN CON UN MES DEANTICIPACION",
         "categoria": "Difusores y accesorios",
-        "Tipo": "DA",
+        "stock": "10",
         "id": "015"
     },
 
@@ -170,7 +170,7 @@
         "Precio": 1000,
         "Detalle": "Cualquier color y diseño tiene el mismo costo",
         "categoria": "Difusores y accesorios",
-        "Tipo": "DA",
+        "stock": "10",
         "id": "016"
     },
 
@@ -182,7 +182,7 @@
         "Detalle": "Bubbles aromaticas y decorativas",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de molde",
-        "Tipo": "VM",
+        "stock": "10",
         "id": "017"
     },
 
@@ -193,7 +193,7 @@
         "Detalle": "Bubbles aromaticas y decorativas",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de molde",
-        "Tipo": "VM",
+        "stock": "10",
         "id": "018"
     },
 
@@ -203,19 +203,30 @@
         "Precio": 2100,
         "Detalle": "Cualquier color y diseño tiene el mismo costo",
         "categoria": "Difusores y accesorios",
-        "Tipo": "DA",
+        "stock": "10",
         "id": "019"
     },
 
     {
-        "imagen": "https://picsum.photos/200/200?random=19",
+        "imagen": "https://picsum.photos/200/200?random=20",
         "Titulo": "Mini Cactus",
         "Precio": 1500,
         "Detalle": "Bubbles aromaticas y decorativas",
         "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
         "categoria": "Vela de molde",
-        "Tipo": "VM",
+        "stock": "10",
         "id": "020"
+    },
+
+    {
+        "imagen": "https://picsum.photos/200/200?random=21",
+        "Titulo": "Mini Dog",
+        "Precio": 1500,
+        "Detalle": "Bubbles aromaticas y decorativas",
+        "Aromas": "Lavanda, flores blancas, jazmín, vainicoco, coco, almendra, canela naranja, vainilla, citronela, limón, maracuya, pera.",
+        "categoria": "Vela de molde",
+        "stock": "10",
+        "id": "021"
     }
     
 ]

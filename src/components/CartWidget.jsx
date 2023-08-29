@@ -1,11 +1,14 @@
+import React from 'react';
+import { useCart } from '../Context/CartContext';
 
+function CartWidget() {
+    const { cartItems } = useCart();
 
-function CartWidget ({amount}) {
-    
+    const totalQuantity = cartItems.reduce((total, item) => total + item.quantity, 0);
 
-    return <>
-    <span className="amountCart" >{ amount }</span>
-    </>
+    return (
+        <span className="amountCart">{totalQuantity}</span>
+    );
 }
 
 export default CartWidget;
