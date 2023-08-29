@@ -14,7 +14,7 @@ const { addToCart } = useCart(); // Obtén la función addToCart desde el contex
   }
 
     return (
-        <Container className='item-detail-container'>
+        <Container className='item-detail-container itemDetailCard'>
             {/* <Card.Img className='imgDetailCard'  variant="top" src={product.imagen} /> */}
             <Card className="text-center cardDetails">
                 <Card.Header>Detalles del Producto</Card.Header>

@@ -14,7 +14,7 @@ const categorias = ["Vela de soja", "Vela de molde", "Hornillos", "Difusores y a
 
 function MiNav() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body-tertiary miNav">
             <Container fluid>
                 <Navbar.Brand as={Link} to="/">CALM CANDLES</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />

@@ -5,8 +5,8 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import MiNav from './components/nav/NavBar';
 import { CartProvider } from './Context/CartContext';
-import { collection, doc, getDoc, getDocs, where, query } from 'firebase/firestore';
-import { fireStore } from './firebase/firebase';
+// import { collection, doc, getDoc, getDocs, where, query } from 'firebase/firestore';
+// import { fireStore } from './firebase/firebase';
 import Footer from './components/Footer/Footer';
 
 
@@ -51,16 +51,16 @@ function App() {
 
   return (
     <BrowserRouter>
-    <CartProvider> 
-      <MiNav />
-      <Routes>
-        <Route exact path="/" element={<ItemListContainer />} />
-        <Route exact path="/item/:id" element={<ItemDetailContainer />} />
-        <Route exact path="/categoria/:categoria" element={<ItemListContainer />} />
-      </Routes>
-      <Footer />
-    </CartProvider> 
-  </BrowserRouter>
+      <CartProvider> 
+            <MiNav />
+              <Routes>
+                <Route exact path="/" element={<ItemListContainer />} />
+                <Route exact path="/item/:id" element={<ItemDetailContainer />} />
+                <Route exact path="/categoria/:categoria" element={<ItemListContainer />} />
+             </Routes>
+           <Footer />
+      </CartProvider> 
+    </BrowserRouter>
   );
 }
 

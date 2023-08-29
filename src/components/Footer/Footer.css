@@ -8,7 +8,16 @@
 
 .footerLinks a {
     text-decoration: none;
-    color: #fd4e09a6;
+    color: rgb(85, 84, 84);
+    margin-bottom: 0% ;
+}
+
+.footerLinks a p {
+    margin-bottom: 10px;
+}
+
+.footerLinks span {
+    color:rgba(70, 69, 69, 0.548) ;
 }
 
 .copyright {
@@ -22,5 +31,16 @@
 
 .footerFot {
     background-color: rgba(199, 199, 198, 0.267);
-    margin-top: 50px;
+    margin-top: 100px;
 }
+
+.mediosDePagoImg { 
+    width: 150px;
+}
+
+.mediosBox { 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
