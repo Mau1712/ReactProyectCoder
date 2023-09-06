@@ -119,5 +119,5 @@ En la coleccion creada en FireStor se reciben los datos de la siguiente forma:
 
 - **PayData:**
 
-![Alt text](./imgReadme/Paydata.png)
+![Alt text](./imgReadme/PayData.png)
 
