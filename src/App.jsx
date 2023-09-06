@@ -5,8 +5,6 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import MiNav from './components/nav/NavBar';
 import { CartProvider } from './Context/CartContext';
-// import { collection, doc, getDoc, getDocs, where, query } from 'firebase/firestore';
-// import { fireStore } from './firebase/firebase';
 import Footer from './components/Footer/Footer';
 import BuyForm from './components/BuyForm/BuyForm';
 
@@ -42,24 +40,13 @@ function App() {
 
 export default App;
 
-// const pusrchasedCart = (cartInfo) => {
-  //   const order = {
-  //     buyer: {
-  //       nombre: "",
-  //       correo: "",
-  //       telefono: ""
-  //     },
-  //     items: [
-  //       {
-  //         id: "",
-  //         precio: "",
-  //         titulo: "",
-  //       }
-  //     ],
-  //     total: 0
-  //   }
-  // }
 
+
+
+// Tipos de consultas:
+
+// import { collection, doc, getDoc, getDocs, where, query } from 'firebase/firestore';
+// import { fireStore } from './firebase/firebase';
 
   // consultar coleccion entera
     // const collectionRef = collection(fireStore, "Item");

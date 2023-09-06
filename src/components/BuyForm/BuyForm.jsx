@@ -5,7 +5,6 @@ import { fireStore } from "../../firebase/firebase";
 import Card from 'react-bootstrap/Card';
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-import Loader from '../Loader';
 import "./BuyForm.css"
 
 export default function BuyForm(props) {
@@ -13,16 +12,17 @@ export default function BuyForm(props) {
     const total = cartItems.reduce((acc, item) => acc + item.Precio * item.quantity, 0);
     const MySwal = withReactContent(Swal);
 
+
     const handleClickEnviarData = (values) => {
 
         MySwal.fire({
-            
+
             title: <p>Procesando pago...</p>,
-            html: '<div class="spinner-container"><div class="spinner"></div></div>',
+            html: '<div class="spinner-container"><p> Verifincando dque los datos de su tarjeta sean correctos... </p><div class="spinner"></div></div>',
             showConfirmButton: false,
             allowOutsideClick: false,
-          });
-        
+        });
+
         const orderRef = collection(fireStore, "orders");
 
         const orderData = {
@@ -58,15 +58,20 @@ export default function BuyForm(props) {
             .then(() => {
 
                 setTimeout(() => {
-                    MySwal.close(); // Cierra el Swal de "Procesando pago..." después de 5 segundos
+                    MySwal.close();
+                 
                     MySwal.fire({
                         icon: 'success',
-                        title: <p>Felicidades por su compra!!</p>,
-                        html: <p>En breve recibirá un correo confirmando su compra y un enlace para el seguimiento de la misma.</p>,
+                        title: '<p>Felicidades por su compra!!</p>',
+                        html: '<p>En breve recibirá un correo confirmando su compra y un enlace para el seguimiento de la misma.</p>',
                         showCancelButton: false,
-                        confirmButtonText: 'OK',
+                        confirmButtonText:'Ok',
+                        customClass: {
+                            confirmButton: 'buttonConfirmSwal'
+                        }
+
                     });
-                }, 5000); // Espera 5 segundos antes de cerrar el Swal de 
+                }, 5000);
                 console.log("Datos enviados exitosamente.");
             })
             .catch((error) => {
@@ -76,8 +81,6 @@ export default function BuyForm(props) {
 
     return (
         <div className="">
-
-
             <Formik
                 initialValues={{
                     email: "",
@@ -119,7 +122,6 @@ export default function BuyForm(props) {
                         errores.numeroTarjeta = "El número de tarjeta debe tener 16 dígitos numéricos";
                     }
 
-
                     if (!valores.fechaVencimiento) {
                         errores.fechaVencimiento = "Por favor ingrese una fecha de vencimiento";
                     } else if (!/^(0[1-9]|1[0-2])\/(\d{2})$/.test(valores.fechaVencimiento)) {
@@ -134,7 +136,6 @@ export default function BuyForm(props) {
                         }
                     }
 
-
                     if (!valores.codigoSeguridad) {
                         errores.codigoSeguridad = "Por favor ingrese un código de seguridad";
                     } else if (!/^\d{3,4}$/.test(valores.codigoSeguridad)) {
@@ -144,7 +145,7 @@ export default function BuyForm(props) {
 
                     return errores;
                 }}
-                
+
                 onSubmit={(values, { resetForm }) => {
                     handleClickEnviarData(values);
                     emptyCart();
@@ -152,6 +153,7 @@ export default function BuyForm(props) {
                 }}
             >
                 {({ errors }) => (
+                    
                     <Form className="FormularioCompra container">
 
                         <div className="datosDelComprador">
