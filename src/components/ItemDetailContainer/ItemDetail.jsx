@@ -7,10 +7,10 @@ import { useCart } from '../../Context/CartContext';
 
 const ItemDetail = ({ product }) => {
 
-  const { addToCart } = useCart(); // Obtén la función addToCart desde el contexto
+  const { addToCart } = useCart(); 
 
   const onAddProduct = () => {
-    addToCart(product); // Agrega el producto al carrito
+    addToCart(product); 
   }
 
   return (

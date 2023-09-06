@@ -1,0 +1,107 @@
+.FormularioCompra {
+    margin-top: 100px;
+    display: flex;    
+}
+
+.FormularioCompra .datosDelComprador {
+    width: 100%;
+    padding: 15px;
+
+}
+
+
+.tituloProduct {
+    text-align: center; 
+}
+
+.tituloForm {
+    margin-bottom: 11px;
+}
+
+.formControl label{
+    width: 100%;  
+    margin-top: 10px;  
+}
+
+.formControl input{
+    width: 100%;    
+}
+
+.formControl textarea {
+    width: 100%;
+}
+
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+.btnForm {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+
+    border: none !important;
+    background-color: #ff4800da;
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btnForm:hover {
+    background-color: green;
+    border: solid 1px white !important;
+}
+
+
+.boxDetail {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.totalDetail {
+    padding-inline: 20px;
+}
+
+.payDatos {
+    margin-top: 25px;
+}
+
+.dateAndCv {
+    display: flex;
+}
+
+.dateAndCv .formControl {
+    width: 50%;
+}
+
+.formControlCv {
+    padding-left: 10px;
+}
+
+/* styles.css */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.884); /* Cambiamos el color a naranja */
+    border-radius: 50%;
+    border-top: 4px solid #ff4800da; /* Cambiamos el color a naranja */
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+
+    padding: 20px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
